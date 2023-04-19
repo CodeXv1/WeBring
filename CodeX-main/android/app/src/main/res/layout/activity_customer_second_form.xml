@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codex.webring.CustomerSecondFormActivity"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="#12110F">
+
+    <EditText
+        android:id="@+id/material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Material"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="50sp"
+        android:layout_marginTop="60sp"/>
+    <EditText
+        android:id="@+id/packaging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Packaging"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="50sp"/>
+
+    <EditText
+        android:id="@+id/condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Condition"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="50sp"/>
+
+    <EditText
+        android:id="@+id/anyAdditionalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Any Additional Info"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="40sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:background="#FA7A52"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="90sp"
+        android:text="confirm"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout_d_f"
+        android:background="#FA7A52"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20sp"
+        android:text="logout"/>
+
+</LinearLayout>

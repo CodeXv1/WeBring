@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12110F"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context="com.codex.webring.CustomerFormActivity">
+
+
+
+    <EditText
+        android:id="@+id/distanceToPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="Distance To Pickup"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="200sp"/>
+
+    <EditText
+        android:id="@+id/deliverTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:background="#12110F"
+        android:hint="Deliver To"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="18sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA7A52"
+        android:text="confirm"
+        android:textColor="#F9F6F6"
+        android:layout_marginTop="180sp" />
+
+    <Button
+        android:id="@+id/logout_d_f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA7A52"
+        android:text="logout"
+        android:textColor="#F9F6F6"
+        android:layout_marginTop="18sp"/>
+
+</LinearLayout>

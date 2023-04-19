@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codex.webring.CustomerSettingsActivity"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="#12110F">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginBottom="20sp"
+
+        android:src="@mipmap/ic_default_user" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="Name"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Phone"
+        android:layout_marginBottom="20sp"
+        android:textColorHint="#FFFFFF"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Vehicle Number"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="20sp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car"
+            android:textColor="#FFFFFF" 
+            android:buttonTint="#ffffff"
+            android:id="@+id/UberX"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Van"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#ffffff"
+            android:id="@+id/UberBlack"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bike"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#ffffff"
+            android:id="@+id/UberXl"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#FA7A52"
+        android:layout_marginTop="130sp"
+        android:id="@+id/confirm"
+        android:text="confirm"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#FA7A52"
+        android:layout_marginTop="18sp"
+        android:id="@+id/back"
+        android:text="back"/>
+
+</LinearLayout>
