@@ -281,19 +281,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
             }
         });
     }
-    /*-------------------------------------------- Map specific functions -----
-    |  Function(s) getDriverLocation
-    |
-    |  Purpose:  Get's most updated driver location and it's always checking for movements.
-    |
-    |  Note:
-    |	   Even tho we used geofire to push the location of the driver we can use a normal
-    |      Listener to get it's location with no problem.
-    |
-    |      0 -> Latitude
-    |      1 -> Longitudde
-    |
-    *-------------------------------------------------------------------*/
+  
     private Marker mDriverMarker;
     private DatabaseReference driverLocationRef;
     private ValueEventListener driverLocationRefListener;
@@ -346,14 +334,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 
     }
 
-    /*-------------------------------------------- getDriverInfo -----
-    |  Function(s) getDriverInfo
-    |
-    |  Purpose:  Get all the user information that we can get from the user's database.
-    |
-    |  Note: --
-    |
-    *-------------------------------------------------------------------*/
+  
     private void getDriverInfo(){
         mDriverInfo.setVisibility(View.VISIBLE);
         DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(driverFoundID);
