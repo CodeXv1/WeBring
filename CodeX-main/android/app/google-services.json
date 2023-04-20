@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "965621263041",
-    "firebase_url": "https://uberclone-a2eb7-default-rtdb.firebaseio.com",
-    "project_id": "uberclone-a2eb7",
-    "storage_bucket": "uberclone-a2eb7.appspot.com"
+    "firebase_url": "https://webring-a2eb7-default-rtdb.firebaseio.com",
+    "project_id": "webring-a2eb7",
+    "storage_bucket": "webring-a2eb7.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:965621263041:android:b7bec088643b67d438c240",
         "android_client_info": {
-          "package_name": "com.codex.uber"
+          "package_name": "com.codex.webring"
         }
       },
       "oauth_client": [
@@ -68,7 +68,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:965621263041:android:87d0458f04539f9738c240",
         "android_client_info": {
-          "package_name": "com.simcoder.uber"
+          "package_name": "com.codex.webring"
         }
       },
       "oauth_client": [
