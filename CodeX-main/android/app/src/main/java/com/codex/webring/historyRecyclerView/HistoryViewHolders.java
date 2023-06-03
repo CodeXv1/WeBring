@@ -9,9 +9,7 @@ import android.widget.TextView;
 import com.codex.webring.HistorySingleActivity;
 import com.codex.webring.R;
 
-/**
- * Created by manel on 10/10/2017.
- */
+
 
 public class HistoryViewHolders extends RecyclerView.ViewHolder implements View.OnClickListener{
 
