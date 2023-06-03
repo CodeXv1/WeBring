@@ -1,8 +1,6 @@
 package com.codex.webring.historyRecyclerView;
 
-/**
- * Created by manel on 10/10/2017.
- */
+/
 
 public class HistoryObject {
     private String rideId;
