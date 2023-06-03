@@ -10,9 +10,7 @@ import com.codex.webring.R;
 
 import java.util.List;
 
-/**
- * Created by manel on 03/04/2017.
- */
+
 
 public class HistoryAdapter extends RecyclerView.Adapter<HistoryViewHolders> {
 
